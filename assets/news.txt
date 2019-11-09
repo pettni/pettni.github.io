@@ -1,0 +1,43 @@
+11/19: Website moved to Github pages.
+9/19: If you have a 3D planning problem on a uniform grid, check out my <a href="http://github.com/pettni/jpsl">3D implementation of jump-point search</a>.
+9/19: I updated the <a href="/~lnilsson/#/research">research page</a> with our latest projects.
+7/19: <a href="/~lnilsson/#/publications#haesaert_cdc19">Paper</a> with Sofie Haesaert and Rohan Thakker on sampling-based temporal logic planning via point-based value iteration accepted to CDC 2019.
+6/19: <a href="/~lnilsson/#/publications#singletary_iros19">Paper</a> with Andrew Singletary on obstacle avoidance for robotic manipulators accepted to IROS.
+1/19: Two papers accepted to ACC 2019 in Philadelphia: <a href="/~lnilsson/#/publications#cnom_acc19">one paper</a> with <a href="https://sites.google.com/umich.edu/sc-ross">Stephanie Ross</a> on invariance-driven power systems control, and <a href="/~lnilsson/#/publications#gnsa_acc19">one paper on robust control invariance</a>.
+1/19: Check out this <a href="/~lnilsson/#/barrier">game</a> that shows how barrier functions can achieve safety in dynamical systems  
+1/19: Upcoming travel: <br> * Jan 23-25: Visit to Prof. Murat Arcak's group at UC Berkeley. <br> * Feb 6: Seminar at Illinois Mechanical Science and Engineering. <br /> * Feb 14: Seminar at Minnesota Aerospace Engineering and Mechanics. <br /> * Feb 18: Seminar at Princeton Electrical Engineering. <br /> * Feb 21: Seminar at University of Wisconsin Mechanical Engineering. <br /> * Mar 21: Seminar at Cornell ECE. <br /> * Mar 22: Seminar at MIT AeroAstro.
+12/18: I attended CDC in Miami to present our <a href="/~lnilsson/#/publications#na_cdc18">work on barrier functions for planning</a>.
+11/18: I am co-organizing the <a href="http://scr2019.caltech.edu/">2019 SoCal Robotics Symposium</a>. A call for abstract/poster contributions will soon be sent out.
+11/18: Our book chapter <a href="/~lnilsson/#/publications#no_chapter18">Provably-Correct Compositional Synthesis of Vehicle Safety Systems</a> in <i>Safe, Autonomous and Intelligent Vehicles</i> where discuss implementing correct-by-construction contract-based controllers on a rela car is available.
+10/18: <a href="/~lnilsson/#/publications#no_arxiv17">Paper on counting problems</a> with my Ph.D. advisor <a href="http://web.eecs.umich.edu/~necmiye/">Necmiye Ozay</a> conditionally accepted to TAC.
+9/18: <a href="/~lnilsson/#/publications#cetal_18">Paper on falsification of black-box controllers for autonomous driving</a> with colleagues at Michigan accepted to IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems.
+7/18: Our paper on barrier-certified abstractions was accepted to CDC 2018, to be held in Miami Beach, FL.
+6/18: A <a href="https://youtu.be/K5814BUPQDU">video</a> of my talk at RSS is available. Also take a look at the <a href="papers/rss_2018_poster.pdf">poster</a>.
+4/18: Our paper on specification-guided exploration accepted to the 2018 Robotics: Science and System Conference in Pittsburgh.
+3/18: Two papers accepted to the IFAC Conference on Analys and Design of Hybrid Systems, to be held in Oxford, UK, in July 2018. 
+2/18: My Ph.D. dissertation is now <a href="https://deepblue.lib.umich.edu/handle/2027.42/140897">available</a> online! 
+1/18: On April 5th I will give a talk at the Robotics Institute at Carnegie Mellon University in Pittsburgh, PA. 
+12/17: I attended CDC in Melbourne where I presented our paper on maximizing the time of invariance.
+10/17: I will give a talk on our work on counting problems at the 33rd Southern California Control Workshop at UCSB.
+9/17: My thesis defense is scheduled for 9.00am on Friday September 15th in 1340 EECS. 
+8/17: I will serve as chair of the "Hybrid Systems III" session at CDC this year. Welcome! 
+8/17: After finishing my Ph.D. in September I will join Caltech as a Post-Doctoral Scholar, working with Aaron Ames on a Caltech/JPL project.
+7/17: Two papers accepted to the 2017 IEEE Conference on Decision and Control, to be held in Melbourne, Australia. 
+4/17: I presented a <a href="papers/midwest2017_poster.pdf">poster</a> on control of large collections of switched systems at the Midwest Workshop on Control and Game Theory.
+4/17: I attended CPS Week in Pittsburgh where I presented our paper entitled "On a class of maximal invariance inducing control strategies for large collections of switched systems" at the HSCC conference.
+3/17: Our paper entitled "Augmented Finite Transition Systems as Abstractions for Control Synthesis" was accepted for publication in <i>Discrete Event Dynamic Systems</i>.
+2/17: I am attending the Dagstuhl seminar entitled <a href="http://www.dagstuhl.de/en/program/calendar/semhp/?semnr=17071">"Computer-Assisted Engineering for Robotics and Autonomous Systems"</a> at Schloss Dagstuhl in Germany.
+12/16: One paper accepted to the 2017 ACM International Conference on Hybrid Systems: Computation and control, and one paper accepted to the 2017 ACM/IEEE International Conference on Cyber-Physical Systems, both to be held in Pittsburgh, PA, in April as part of CPS Week 2017.
+12/16: I am attending the Confence on Decision and control in Las Vegas, NV, where Stanley Smith will present our paper on contract-based safe controller composition.
+08/16: I participated at the Insights 2016 meeting arranged on Mackinac Island by <a href="http://elabvc.com">eLab Ventures</a>.
+07/16: Our paper on correct-by-construction composition was accepted to the 2016 Conference on Decision and Control in Las Vegas, NV.
+07/16: I <a href="papers/no_acc2016.pdf">presented</a> our paper on separable controlled invariance at the American Control Conference in Boston, MA.
+06/16: Stanley Smith presented our <a href="papers/rss_2016.pdf">poster</a> on correct-by-constructon composition at the <a href="http://qav.comlab.ox.ac.uk/trust_in_autonomy/">Workshop on Social Trust in Autonomous Robots</a> at the Robotics: Science and Systems conference.
+05/16: During the summer I am working with Ford Motor Co. to evaluate use of formal methods in the automotive industry.
+04/16: I presented our paper at HSCC in Vienna, Austria.
+02/16: Our 2016 HSCC paper earned the "Repeatability Evaluated" badge, indicating that independent reviewers were able to reproduce the results in the paper using our <a href="http://www.github.com/pettni/mode-count">software</a>.
+01/16: Our <a href="#/pubs">paper</a> on decomposable invariant sets accepted to the <a href="http://acc2016.a2c2.org/index.html">2016 American Control Conference</a> in Boston, MA.
+01/16: I will participate at the <a href="http://www.ima.umn.edu/2015-2016/W1.25-29.16/">IMA Optimization and Parsimonious Modeling</a> workshop at the University of Minnesota.
+01/16: I will be part of the <a href="http://www.cs.ox.ac.uk/conferences/hscc2016/re.html">Repeatability Committee</a> at the 2016 HSCC conference.
+12/15: Our <a href="#/pubs">paper</a> on scalable formal synthesis accepted to the 2016 Conference on Hybrid Systems: Computation and Control in Vienna, Austria.
+12/15: I gave a <a href="papers/nilsson_csem.pdf">talk</a> on formal synthesis and reachability at the University of Michigan <a href="http://wwweb.eecs.umich.edu/control_seminar/">Control Seminar</a>.

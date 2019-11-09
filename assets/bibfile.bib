@@ -1,0 +1,402 @@
+@inproceedings{nbsn_cdc2013,
+  Author = {Petter Nilsson and Ugo Boscain and Mario Sigalotti and James Newling},
+  Booktitle = {Proceedings of the IEEE Conference on Decision and Control},
+  Title = {Invariant sets of defocused switched systems},
+  Year = {2013},
+  Month = {Dec},
+  Pages = {5987-5992},
+  Doi = {10.1109/CDC.2013.6760834},
+  Abstract = {We consider affine switched systems as pertur- bations of linear ones, the equilibria playing the role of perturbation parameters. We study the stability properties of an affine switched system under arbitrary switching, assuming that the corresponding linear system is uniformly exponentially stable. It turns out that the affine system admits a minimal invariant set $\\Omega$, whose properties we investigate. In the two-dimensional bi-switched case when both subsystems have non-real eigenvalues we are able to characterize $\\Omega$ completely and to prove that all trajectories of the system converge to $\\Omega$. We also explore the behavior of minimal-time trajectories in $\\Omega$ by constructing optimal syntheses.}
+}
+
+@mastersthesis{mn_sse2013,
+  Author = {Per Moosavi and Petter Nilsson},
+  School = {Stockholm School of Economics},
+  Type = {Bachelor's thesis},
+  Title = {Simulation of Dynamic Behavior in an Extended Public Goods Game},
+  Year = {2013},
+  Month = {May},
+  Url = {http://inn.hhs.se/record=b1157526},
+  Slides = {papers/mn_sse2013_slides.pdf},
+  Abstract = {Establishment and upholding of norms in a society is studied by constructing an agent-based model for the public goods game with punishments and limited information. The model includes players employing one of three strategies: defection, enforcement or cooperation. Game dynamics are introduced based on evolutionary game theory with poor performing players being more likely to revise their strategy.
+    
+  The model is studied numerically with the use of computer simulations. Questions addressed include the necessary conditions to attain a cooperative state and the impact of including cost-sharing institutional structures. An analytical study is also included, leading to the derivation of an approximate differential equation describing the dynamics of the game. 
+
+  It was found that for sufficiently severe punishments, enforcers are able to establish and sustain states of cooperation. This ability was observed to depend on the mobility of strategies and could be improved by including institutional structures.}
+}
+
+@mastersthesis{nilsson_kth2013,
+  Author = {Petter Nilsson},
+  School = {KTH Royal Institute of Technology},
+  Type = {Master's thesis},
+  Title = {Invariant Sets of Two-Dimensional Affine Switched Systems},
+  Year = {2013},
+  Month = {May},
+  Url = {http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-119310},
+  Slides = {papers/nilsson_kth2013_slides.pdf},
+  Abstract = {Switched systems form a special class of hybrid dynamical systems, i.e. systems with both continuous and discrete dynamics. A switched system contains a family of continuous subsystems and a discrete variable that governs the switching between them. The problem of finding necessary and sufficient conditions for asymptotic stability under arbitrary switching has re-ently been solved for the two-dimensional focused switched system $\\dot x = uAx + (1 − u)Bx$. We consider a generalization $\\dot x = uA(x − xc) + (1 − u)Bx$ where the equilibrium points of the two subsystems have been separated, a defocused system. Using geometrical arguments we show that whenever the focused system is asymptotically stable, a corresponding defocused system will contain a ‘smallest’ invariant set $\\Omega$. In the case when both the subsystems have non-real eigenvalues we are able to completely characterize $\\Omega$ and prove that all trajectories converge to $\\Omega$.
+
+  We investigate topological properties of $\\Omega$ and classify the possible irregularities of $\\partial \\Omega$. We also build time-optimal syntheses inside $\\Omega$ which exhibit the behavior of minimal-time trajectories. Finally we briefly look at additional phenomena that occur when real eigenvalues are present in the subsystems.}
+}
+
+@inproceedings{notm_acc2012,
+  Author = {Petter Nilsson and Necmiye Ozay and Ufuk Topcu and Richard M. Murray},
+  Booktitle = {Proceedings of the American Control Conference},
+  Pages = {5302-5309},
+  Title = {Temporal Logic Control of Switched Affine Systems with an Application in Fuel Balancing},
+  Year = {2012},
+  Month = {June},
+  Doi = {10.1109/ACC.2012.6315141},
+  Slides = {papers/notm_acc2012_slides.pdf},
+  Abstract = {We consider the problem of synthesizing hierarchical controllers for discrete-time switched affine systems subject to exogenous disturbances that guarantee that the trajectories of the system satisfy a high-level specification expressed as a linear temporal logic formula. Our method builds upon recent results on temporal logic planning and embedded controller synthesis. First, the control problem is lifted to a discrete level by constructing a finite transition system that abstracts the behavior of the underlying switched system. At the discrete level, we recast the problem as a two player temporal logic game by treating the environment driven switches as adversaries. The solution strategy for the game (i.e. the discrete plan) is then implemented at the continuous level by solving finite-horizon optimal control problems that establish reachability between discrete states and that compensate the effects of continuous disturbances. We also extend the earlier work by making efficient use of propositions in the temporal logic formula to drive the abstraction procedure and to facilitate the computation of continuous input at implementation time.
+
+  An aircraft fuel system example is formulated; and solved using the proposed method. This sample problem demonstrates the applicability of the abstraction procedure and correct-by-construction controllers to regulate the fuel levels in multiple tanks during interesting operations like aerial refueling.}
+}
+
+@mastersthesis{lmp_kth2011,
+  Author = {Martin Lundholm and Viktor Mikhalev and Petter Nilsson},
+  School = {KTH Royal Institute of Technology},
+  Type = {Bachelor's thesis},
+  Title = {Time Correction for the {PoGO}Lite Project},
+  Year = {2011},
+  Month = {May},
+  Url = {http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-105752},
+  Abstract = {A crucial problem when measuring radiation from astronomical sources, such as pulsars, is timing. Because of geometrical and relativistic effects, the total distance traveled by a photon from source to detector will vary with time. This causes varying phase shifts in the photon times of arrival (TOAs) which makes a data analysis hard to perform. To solve this problem a time correction has to be applied to the TOAs. This report describes a method in which photon TOAs are converted to the inertial frame of the solar system mass center, which is a fixed point in the galaxy. The conversion require several transformations between time standards and different astronomical coordinate systems.
+
+  PoBaTiC is a Python program which implements this method and is designed to be used for PoGOLite experiment data. With PoBaTiC, time corrections can be performed on a data file containing the GPS positions and TOAs for a set of observations. The accuracy of PoBaTiC is evaluated by performing the time correction on data gathered by the XMM-Newton satellite and comparing the result to corrections performed by XMM-Newton software. The tests show that the accuracy is at the level of a hundred nanoseconds and thus fulfills the requirements of PoGOLite.}
+}
+
+@inproceedings{no_cdc2014,
+  Author = {Petter Nilsson and Necmiye Ozay},
+  Booktitle = {Proceedings of the IEEE Conference on Decision and Control},
+  Title = {Incremental Synthesis of Switching Protocols via Abstraction Refinement},
+  Year = {2014},
+  Month = {Dec},
+  Doi = {10.1109/CDC.2014.7040368},
+  Pages = {6246-6253},
+  Slides = {papers/no_cdc2014_slides.pdf},
+  Abstract = {We consider the problem of synthesizing switching protocols that regulate the modes of a switched system in order to guarantee that the trajectories of the system satisfy certain high-level specifications. In particular, we develop a computational framework for incremental synthesis of switching protocols. Augmented finite transition systems are used as abstract representations of continuous dynamics. Inspired by counter-example guided abstraction refinement procedures for hybrid system verification, we start with a coarse abstraction and gradually refine it according to preorder relations on augmented finite transition systems. At each iteration, the proposed procedure can produce either a switching protocol that ensures the satisfaction of the specification, a certificate for nonexistence of such a protocol, or a refinement suggestion together with a partial solution to be used in the next iteration. Although the procedure is not guaranteed to terminate in general, we illustrate its practical applicability with two simple examples.}
+}
+
+@inproceedings{netal_cdc2014,
+  Author = {Petter Nilsson and Omar Hussien and Yuxiao Chen and Ayca Balkan and Matthias Rungger and Aaron D. Ames and Jessy Grizzle and Necmiye Ozay and Huei Peng and Paulo Tabuada}, 
+  Booktitle = {Proceedings of the IEEE Conference on Decision and Control}, 
+  Title = {Preliminary Results on Correct-by-Construction Control Software Synthesis for Adaptive Cruise Control}, 
+  Year = {2014},
+  Month = {Dec},
+  Pages = {816-823},
+  Doi = {10.1109/CDC.2014.7039482},
+  Slides = {papers/netal_cdc2014_slides.pdf},
+  Abstract = {A plethora of driver convenience and safety automation systems are being introduced into production vehicles, such as electronic stability control, adaptive cruise control, lane keeping, and obstacle avoidance. Assuring the seamless and safe integration of each new automation function with existing control functions is a major challenge for vehicle manufacturers. This challenge is compounded by having different suppliers providing software modules for different control functionalities. In this paper, we report on our preliminary steps to address this problem through a fresh perspective combining formal methods, control theory, and correct-by-construction software synthesis. In particular, we begin the process of synthesizing the control software module for adaptive cruise control from formal specifications given in Linear Temporal Logic. In the longer run, we will endow each interacting software module with an assume-guarantee specification stating under which environment assumptions the module is guaranteed to meet its specifications. These assume-guarantee specifications will then be used to formally prove correctness of the cyber-physical system obtained when the integrated modules interact with the physical dynamics.}
+}
+
+@inproceedings{no_acc2016,
+  Author = {Petter Nilsson and Necmiye Ozay},
+  Booktitle = {Proceedings of the American Control Conference},
+  Title = {Synthesis of separable controlled invariant sets for modular local control design},
+  Year = {2016},
+  Month = {July},
+  Pages = {5656-5663},
+  Abstract = {Many correct-by-construction control synthesis methods suffer from the curse of dimensionality. Motivated by this challenge, we seek to reduce a correct-by-construction control synthesis problem to subproblems of more modest dimension. As a step towards this goal, in this paper we consider the problem of synthesizing decoupled robustly controlled invariant sets for dynamically coupled linear subsystems with state and input constraints. Our approach, which gives sufficient conditions for decoupled invariance, is based on optimization over linear matrix inequalities which are obtained using slack variable identities. We illustrate the applicability of our method on several examples, including one where we solve local control synthesis problems in a compositional manner.},
+  Doi = {10.1109/ACC.2016.7526557},
+  Slides = {papers/no_acc2016.pdf},
+  Eprinttype = {arxiv},
+  Eprintclass = {cs.SY},
+  Eprint = {1510.02990}
+}
+
+@inproceedings{no_hscc2016,
+  Author = {Petter Nilsson and Necmiye Ozay},
+  Booktitle = {Proceedings of the International Conference on Hybrid Systems: Computation and Control},
+  Title = {Control Synthesis for Large Collections of Systems with Mode-Counting Constraints},
+  Year = {2016},
+  Month = {April},
+  Pages = {205-214},
+  Abstract = {Given a large homogeneous collection of switched systems, we consider a novel class of safety constraints, called mode-counting constraints, that impose restrictions on the number of systems that are in a particular mode. We propose an approach for synthesizing correct-by-construction switching protocols to enforce such constraints over time. Our approach starts by constructing an approximately bisimilar abstraction of the individual system model. Then, we show that the aggregate behavior of the collection can be represented by a linear system, whose system matrices are induced by the transition graph of the abstraction. Finally, the control synthesis problem with mode counting constraints is reduced to a cycle assignment problem on the transition graph. One salient feature of the proposed approach is its scalability; the computational complexity is independent of the number of systems involved. We illustrate this approach on the problem of coordinating a large collection of thermostatically controlled loads while ensuring a bound on the number of loads that are extracting power from the electricity grid at any given time.},
+  Slides = {http://web.eecs.umich.edu/~pettni/papers/no_hscc16_slides.pdf},
+  Doi = {10.1145/2883817.2883831}
+}
+
+@article{netal_cst2016,
+  Author = {Petter Nilsson and Omar Hussien and Ayca Balkan and Yuxiao Chen and Aaron D. Ames and Jessy Grizzle and Necmiye Ozay and Huei Peng and Paulo Tabuada},
+  Journal = {IEEE Transactions on Control Systems Technology},
+  Title = {Correct-By-Construction Adaptive Cruise Control: Two Approaches},
+  Pages = {1294-1307},
+  Volume = {24},
+  Number = {4},
+  Year = {2016},
+  Month = {Dec},
+  Doi = {10.1109/TCST.2015.2501351},
+  Abstract = {Motivated by the challenge of developing control software provably meeting specifications for real world problems, this paper applies formal methods to adaptive cruise control (ACC). Starting from a Linear Temporal Logic specification for ACC, obtained by interpreting relevant ACC standards, we discuss in this paper two different control software synthesis methods. Each method produces a controller that is correct-by-construction, meaning that trajectories of the closed-loop systems provably meet the specification. Both methods rely on fixed-point computations of certain set-valued mappings. However, one of the methods performs these computations on the continuous state space whereas the other method operates on a finite-state abstraction. While controller synthesis is based on a low-dimensional model, each controller is tested on CarSim, an industry-standard vehicle simulator. Our results demonstrate several advantages over classical control design techniques. First, a formal approach to control design removes potential ambiguity in textual specifications by translating them into precise mathematical requirements. Second, because the resulting closed-loop system is known a priori to satisfy the specification, testing can then focus on the validity of the models used in control design and whether the specification captures the intended requirements. Finally, the set from where the specification (e.g., safety) can be enforced is explicitly computed and thus conditions for passing control to an emergency controller are clearly defined.}
+}
+
+@inproceedings{sno_cdc2016,
+  Author = {Stanley Smith and Petter Nilsson and Necmiye Ozay},
+  Booktitle = {Proceedings of the IEEE Conference on Decision and Control},
+  Title = {Interdependence quantification for compositional control synthesis: An application in vehicle safety systems},
+  Doi = {10.1109/CDC.2016.7799145},
+  Pages = {5700-5707},
+  Year = {2016},
+  Month = {Dec},
+  Abstract = {Composing controllers designed individually for interacting subsystems, while preserving the guarantees that each controller provides on each subsystem is a challenging task. Motivated by this challenge, we consider in this paper the problem of synthesizing safety controllers for linear parameter varying subsystems, where the system matrices of each subsystem depend (possibly nonlinearly) on the states of the other subsystems. In particular, we propose a method for synthesis of controlled invariant sets and associated controllers, that is robust against affine parametric uncertainties in the system matrices. Then we show for certain classes of parameter dependencies how to quantify the uncertainty imposed on the other subsystems by convexifying, with an affine map, the effects of these parameters.  An analysis of this quantification is provided. In the second part of the paper, we focus on an application of this method to vehicle safety systems. We demonstrate how controllers for lane-keeping and adaptive cruise control can be synthesized in a compositional way using the proposed method. Our simulations illustrate how these controllers keep their individual safety guarantees when implemented simultaneously, as the theory suggests.}
+}
+
+@inproceedings{no_hscc17,
+  Author = {Petter Nilsson and Necmiye Ozay},
+  Title = {On a class of maximal invariance inducing control strategies for large collections of switched systems},
+  Booktitle = {Proceedings of the International Conference on Hybrid Systems: Computation and Control},
+  Year = {2017},
+  Month = {April},
+  Pages = {187-196},
+  Doi = {10.1145/3049797.3049810},
+  Slides = {papers/no_hscc17_slides.pdf},
+  Abstract = {Modern control synthesis methods that are capable of delivering safety guarantees typically rely on finding invariant sets. Computing and/or representing such sets becomes intractable for high-dimensional systems and often constitutes the main bottleneck of computational procedures. In this paper we instead analytically study a particular high-dimensional system and propose a control strategy that we prove renders a set invariant whenever it is possible to do so. The control problem---the mode-counting problem with two modes in one dimension---is inspired by scheduling of thermostatically controlled loads (TCLs) and exhibits a trade-off between local safety constraints and a global counting constraint. We improve upon a control strategy from the literature to handle heterogeneity and derive sufficient conditions for the strategy to solve the problem at hand. In addition, we show that the conditions are also necessary for the problem to have a solution, which implies a type of optimality of the proposed control strategy. We outline more general problem instances where the same control strategy can be implemented and we give sufficient (but not necessary) conditions for the closed-loop system to satisfy its specification. We illustrate our results on a TCL scheduling example.}
+}
+
+@inproceedings{sno_cpss17,
+  Author = {Yunus Emre Sahin and Petter Nilsson and Necmiye Ozay},
+  Title = {Provably-correct coordination of large collections of agents with counting temporal logic constraints},
+  Booktitle = {Proceedings of the ACM/IEEE International Conference on Cyber-Physical Systems},
+  Year = {2017},
+  Month = {April},
+  Doi = {10.1145/3055004.3055021},
+  Pages = {249-258},
+  Abstract = {In this paper, we consider the problem of coordinating a large collection of homogeneous agents subject to a novel class of constraints, namely counting temporal logic constraints. Counting constraints arise naturally in many multi-agent planning problems where the identity of the agents is not important for the task to be completed. We introduce a formal language to capture such tasks and present an optimization-based technique to synthesize plans for large collections of agents in a way to guarantee the satisfaction of tasks specified in this formalism.}
+}
+
+@article{nol_jdeds17,
+  Author = {Petter Nilsson and Necmiye Ozay and Jun Liu},
+  Title = {Augmented Finite Transition Systems as Abstractions for Control Synthesis},
+  Journal = {Discrete Event Dynamic Systems},
+  Year = {2017},
+  Month = {June},
+  Volume = {27},
+  Number = {2},
+  Pages = {301-340},
+  Doi = {10.1007/s10626-017-0243-z},
+  Abstract = {This work is motivated by the problem of synthesizing switching protocols for continuous switched systems described by differential or difference equations, in a way that guarantees that the resulting closed-loop trajectories satisfy certain high-level specifications expressed in linear temporal logic. We introduce \emph{augmented} finite transition systems as an abstract representation of the continuous dynamics; the augmentation consists in encodings of liveness properties that can be used to enforce progress in accordance with the underlying continuous dynamics. Abstraction and refinement relations that induce a preorder on this class of finite transition systems are established, and, by construction, this preorder respects the feasibility (i.e., realizability) of the synthesis problem. Hence, existence of a discrete strategy for one of these abstract finite transition systems guarantees the existence of a switching protocol for the continuous system that enforces the specification for all resulting trajectories.
+
+  We show how abstractions and refinements can be computed for different classes of continuous systems through an incremental synthesis procedure that starts with a coarse abstraction and gradually refines it according to the established preorder relations. Finally, the incremental synthesis procedure is tailored to a class of temporal logic formulas by utilizing specific fixed point structures to enable localized updates in the refinement steps. The procedure is not guaranteed to terminate in general but we illustrate its practical applicability on numerical examples.}
+}
+
+@inproceedings{no_cdc17,
+  Author = {Petter Nilsson and Necmiye Ozay},
+  Title = {Maximizing the Time of Invariance for Large Collections of Switched Systems},
+  Booktitle = {Proceedings of the IEEE Conference on Decision and Control},
+  Year = {2017},
+  Month = {Dec},
+  Doi = {10.1109/CDC.2017.8264191},
+  Slides = {papers/no_cdc17_slides.pdf},
+  Pages = {3618-3625},
+  Abstract = {Motivated by the problem of capacity allocation in aggregate systems of thermostatically controlled loads, we seek to optimize the time of invariance---the maximal time that a scheduler can maintain local safety constraints without exceeding an aggregate capacity constraint. Having previously characterized conditions when the time of invariance is infinite, this paper focuses on situations when no scheduler can satisfy all constraints indefinitely. 
+
+  We derive a lower bound for the optimal time of invariance, and leverage ideas from optimal control to propose control strategies with associated lower bounds on the resulting times of invariance. We also analyze the optimality gap. The results are illustrated on a 10,000-dimensional example.}
+}
+
+@inproceedings{sno_cdc17,
+  Author = {Yunus Emre Sahin and Petter Nilsson and Necmiye Ozay},
+  Title = {Synchronous and Asynchronous Multi-agent Coordination with cLTL+ Constraints},
+  Booktitle = {Proceedings of the IEEE Conference on Decision and Control},
+  Year = {2017},
+  Month = {Dec},
+  Doi = {10.1109/CDC.2017.8263687},
+  Pages = {335-342},
+  Abstract = {Planning trajectories for multiple agents in a way to guarantee that their collective behavior satisfies certain high-level specifications is crucial in many application domains. Motivated by this problem, we introduce a new logic called counting linear temporal logic plus (cLTL+). This logic enables specifying multi-agent tasks over possibly infinite horizons in a compact manner. We then propose an optimization-based method that generates trajectories for individual agents that, when implemented together, guarantee the satisfaction of a given cLTL+ formula. In the second part of the paper, we discuss how these results can be extended to generate trajectories that can be asynchronously implemented by the agents while preserving the satisfaction of the desired cLTL+ specification. In particular, we show that when the asynchrony between agent trajectories is bounded, it is possible to generate trajectories robust against such asynchrony with an appropriate modification of the optimization problem. Finally, we demonstrate these ideas on selected examples.}
+}
+
+@article{no_arxiv17,
+  Title = {Control Synthesis for High-Dimensional Systems With Counting Constraints},
+  Author = {Petter Nilsson and Necmiye Ozay},
+  Journal = {IEEE Transactions on Automatic Control},
+  Eprint = {1706.07863v1},
+  Eprintclass = {cs.SY},
+  Eprinttype = {arxiv},
+  Doi = {10.1109/TAC.2019.2910949},
+  Year = {2019},
+  Month = {February},
+  Abstract = {General purpose correct-by-construction synthesis methods are limited to systems with low dimensionality or simple specifications. In this work we consider highly symmetrical \emph{counting problems} and exploit the symmetry to synthesize provably correct controllers for systems with tens of thousands of states. The key ingredients of the solution are an aggregate abstraction procedure for mildly heterogeneous systems and subsequent formulation of counting constraints as linear inequalities.}
+}
+
+@phdthesis{pn_thesis2017,
+  Title = {Correct-by-Construction Control Synthesis for High-Dimensional Systems},
+  Year = {2017},
+  Month = {December},
+  School = {University of Michigan},
+  Author = {Petter Nilsson},
+  Url = {http://hdl.handle.net/2027.42/140897},
+  Abstract = {There is a need for controller design methodologies that enable early detection and elimination of unsafe designs. This thesis is about correct-by-construction synthesis methods---a collection of techniques that provide mathematical guarantees on correct behavior with respect to a formal specification. While these methods have attractive theoretical properties, there are fundamental scalability limitations that inhibit wide adoption; this work is concerned with ways of overcoming the scalability issue. In particular, three techniques for improving scalability are addressed.  Firstly, a specification-guided abstraction-refinement technique with two novel inventions is presented. As opposed to traditional uniform abstractions, this technique creates non-uniform abstractions that are iteratively refined in ``promising'' areas of the state space to create a parsimonious abstraction. The abstraction is also augmented with additional information in the form of \emph{progress groups} that can encode transience properties of the underlying concrete system. Examples demonstrate that both these novelties can reduce the computational burden significantly.  
+
+  Secondly, ways to decompose large problems into smaller ones while preserving correctness guarantees are considered. Since synthesis techniques typically scale exponentially with system dimension, decomposition can render otherwise intractable problems tractable. Two techniques for computation of separable invariant sets are presented; one for joint computation via LMIs, and one for iterative localized computation for systems with nonlinear interconnections.  
+
+  The final part of the thesis presents a way to leverage problem structure in order to provide mathematical correctness guarantees on aggregate behavior for very large collections of systems. In particular, \emph{counting problems} are introduced, which due to their symmetry admit a novel form of abstraction whose size is a fraction of that of a traditional naive abstraction. The counting problem on the abstraction is solved via ILP optimization.}
+}
+
+@inproceedings{bno_adhs18,
+  Author = {Oscar Bulancea Lindvall and Petter Nilsson and Necmiye Ozay},
+  Title = {Nonuniform abstractions, refinement and controller synthesis with novel BDD encodings},
+  Year = {2018},
+  Month = {July},
+  Eprint = {1804.04280},
+  Eprinttype = {arxiv},
+  Eprintclass = {cs.SY},
+  Pages = {19-24},
+  Doi = {10.1016/j.ifacol.2018.08.004},
+  Booktitle = {Proceedings of the IFAC Conference on Analysis and Design of Hybrid Systems},
+  Abstract = {This paper presents a control synthesis algorithm for dynamical systems to satisfy specifications given in a fragment of linear temporal logic. It is based on an  abstraction-refinement scheme with nonuniform partitions of the state space. A novel encoding of the resulting transition system is proposed that uses binary decision diagrams for efficiency. We discuss several factors affecting scalability and present some benchmark results demonstrating the effectiveness of the new encodings. These ideas are also being implemented on a publicly available prototype tool, ARCS, that we briefly introduce in the paper.}
+}
+
+@inproceedings{hetal_adhs18,
+  Author = {Sofie Haesaert and Petter Nilsson and Cristian-Ioan Vasile and Rohan Thakker and Ali-akbar Agha-Mohammadi and Aaron D. Ames and Richard M. Murray},
+  Title = {Temporal Logic Control of POMDPs via Label-based Stochastic Simulation Relations},
+  Month = {July},
+  Year = {2018},
+  Pages = {271-276},
+  Doi = {10.1016/j.ifacol.2018.08.046},
+  Booktitle = {Proceedings of the IFAC Conference on Analysis and Design of Hybrid Systems},
+  Abstract = {In this work we consider synthesis of controllers guaranteeing specifications given in linear temporal logic on belief models, as motivated by the observation that the stochastic evolution of a partially observable Markov decision process (POMDP) can be modeled by an associated Markov decision process (MDP) in belief space. The computational issues associated with correct-by-construction synthesis on continuous state spaces are circumvented via construction of a finite-state abstraction, on which a control policy is synthesized and refined back to the original model. We introduce a new notion of label-based approximate stochastic simulation relation to quantify the deviation of the approximate abstract model. By compensating {\it a priori} for these deviations in the control synthesis, lower bounds for the probability of specification satisfaction are guaranteed by the refined control policy.}
+}
+
+@inproceedings{netal_rss18,
+  Author = {Petter Nilsson and Sofie Haesaert and Rohan Thakker and Kyohei Otsu and Cristian-Ioan Vasile and Ali-akbar Agha-Mohammadi and Aaron D. Ames and Richard M. Murray},
+  Title = {Toward Specification-Guided Active Mars Exploration for Cooperative Robot Teams},
+  Doi = {10.15607/RSS.2018.XIV.047},
+  Slides = {https://youtu.be/K5814BUPQDU},
+  Month = {June},
+  Year = {2018},
+  Booktitle = {Proceedings of Robotics: Science and Systems Conference},
+  Abstract = {As a step towards achieving autonomy in space exploration missions, we consider a cooperative robotics system consisting of a copter and a rover. The goal of the copter is to explore an unknown environment so as to maximize knowledge about a science mission expressed in linear temporal logic that is to be executed by the rover. We model environmental uncertainty as a belief space Markov decision process and formulate the problem as a two-step stochastic dynamic program that we solve in a way that leverages the decomposed nature of the overall system. We demonstrate in simulations that the robot team makes intelligent decisions in the face of uncertainty.}
+}
+
+@inproceedings{na_cdc18,
+  Author = {Petter Nilsson and Aaron D. Ames},
+  Title = {Barrier Functions: Bridging the Gap between Planning from Specifications and Safety-Critical Control},
+  Month = {December},
+  Year = {2018},
+  Booktitle = {Proceedings of the IEEE Conference on Decision and Control},
+  Doi = {10.1109/CDC.2018.8619142},
+  Abstract = {Real-life control systems are hierarchies of interacting layers; often consisting of a planning layer, a trajectory generation layer, and a trajectory-following layer. Independently designing the layers without taking the interactions between layers into account makes it difficult to obtain safety guarantees when executing a high-level plan. In this paper we combine ideas from safety-critical control and high-level policy synthesis to develop a principled connection between a high-level planner in a low-dimensional space, and a low-level safety-critical controller acting in the full state space. We introduce a new type of simulation relation and show that barrier functions can be used to abstract a high-dimensional system via the relation. As a result, we obtain provably correct execution of high-level policies by low-level optimization-based controllers. The results are demonstrated with a quadrotor surveillance example.},
+  Slides = {papers/na_cdc18_slides.pdf},
+  Pages = {765-772}
+}
+
+@article{cetal_18,
+  Author = {Glen Chou and Yunus E. Sahin and Liren Yang and Kwesi J. Rutledge and Petter Nilsson and Necmiye Ozay},
+  Title = {Using control synthesis to generate corner cases: A case study on autonomous driving},
+  Journal = {IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems},
+  Year = {2018},
+  Month = {September},
+  Volume = {37},
+  Number = {11},
+  Doi = {10.1109/TCAD.2018.2858464},
+  Eprint = {1807.09537},
+  Eprintclass = {cs.SY},
+  Eprinttype = {arxiv},
+  Abstract = {This paper employs correct-by-construction control synthesis, in particular controlled invariant set computations, for falsification. Our hypothesis is that if it is possible to compute a ``large enough'' controlled invariant set either for the actual system model or some simplification of the system model, interesting corner cases for other control designs can be generated by sampling initial conditions from the boundary of this controlled invariant set. Moreover, if falsifying trajectories for a given control design can be found through such sampling, then the controlled invariant set can be used as a supervisor to ensure safe operation of the control design under consideration. In addition to interesting initial conditions, which are mostly related to safety violations in transients, we use solutions from a dual game, a reachability game for the safety specification, to find falsifying inputs. We also propose optimization-based heuristics for input generation for cases when the state is outside the winning set of the dual game. To demonstrate the proposed ideas, we consider case studies from basic autonomous driving functionality, in particular, adaptive cruise control and lane keeping. We show how the proposed technique can be used to find interesting falsifying trajectories for classical control designs like proportional controllers, proportional integral controllers and model predictive controllers, as well as an open source real-world autonomous driving package.}
+}
+
+@inproceedings{gnsa_acc19,
+  Author = {Thomas Gurriet and Petter Nilsson and Andrew Singletary and Aaron D. Ames},
+  Title = {Realizable Set Invariance Conditions for Cyber-Physical Systems},
+  Month = {July},
+  Year = {2019},
+  Booktitle = {Proceedings of the American Control Conference},
+  Abstract = {There is currently a gap between control-theoretical results and the reality of robotic implementations---this makes it difficult to transfer analytical guarantees to practice. This problem is especially troubling when it comes to safety guarantees for safety-critical systems. In this paper we seek to help bridge this gap. We first make a clear theoretical distinction between a system and a model, and outline how the two need to be related for guarantees to transfer from the latter to the former. We then introduce various imperfections into the model, including uncertainty in actuation and sensing, as well as time discretization effects from digital control implementations. These assumptions lead to new criteria for controlled invariance to be realizable. We investigate these criteria and propose a digital control implementation for enforcing safety in the presence of uncertainty. Our ideas are illustrated with a numerical example where a ground robot satisfies safety constraints in the presence of perception noise.}
+}
+
+@inproceedings{cnom_acc19,
+  Author = {Stephanie Ross and Petter Nilsson and Necmiye Ozay and Johanna L. Mathieu},
+  Title = {Managing Voltage Excursions on the Distribution Network by Limiting the Aggregate Variability of Thermostatic Loads},
+  Month = {July},
+  Year = {2019},
+  Booktitle = {Proceedings of the American Control Conference},
+  Abstract = {This paper proposes a strategy to control a group of thermostatically controlled loads (TCLs) such that the variability in their aggregate load is reduced. This strategy could be deployed in areas of a distribution network that experience voltage excursions due to net load fluctuations, such as areas with high penetrations of photovoltaic (PV) generation and/or electric vehicles (EVs). We limit variation in the power consumption of a group of TCLs using a control strategy previously developed for large aggregations of switched systems. Using this strategy, we constrain the number of TCLs that are on (i.e., actively consuming power) between upper and lower bounds. In simulations, the control strategy successfully decreases the range over which TCL power consumption varies. Reductions in range, as a percentage of the group's aggregate power, are greater for smaller group sizes: we find that 1000 TCLs have a median reduction of 8\%, whereas 5 TCLs have a median reduction of 75\%. Reducing the variability of a distribution network's power injections helps to reduce voltage variability. In a simulation of a distribution line supplying 25 households, half with PV systems, the control strategy reduces the total range of voltage by 0.02 p.u. and prevents a violation of the 0.95 p.u. limit. Lastly, we propose a new control strategy for a more realistic TCL model that includes compressor lockout. The new strategy performs comparably to the original strategy and is demonstrated through simulation.}
+}
+
+@incollection{no_chapter18,
+  Author = {Petter Nilsson and Necmiye Ozay},
+  Title = {Provably-Correct Compositional Synthesis of Vehicle Safety Systems},
+  Booktitle = {Safe, Autonomous and Intelligent Vehicles},
+  Publisher = {Springer},
+  Year = {2019},
+  Month = {January},
+  Doi = {10.1007/978-3-319-97301-2_6},
+  Editor = {Yu, Huafeng and Li, Xin and Murray, Richard M. and Ramesh, S. and Tomlin, Claire J.},
+  Abstract = {As the automobile evolves toward full autonomy, many driver convenience and safety automation systems are being introduced into production vehicles. These systems often include controllers designed for individual tasks. Designing individual controllers for interacting subsystems, and composing them in a way that preserves the guarantees that each controller provides on each subsystem, is a challenging task. This chapter presents recent results addressing this problem through the use of formal methods and correct-by-construction controller synthesis. Mechanisms for handling implementation- and model imperfections, and contract-based composition of functionality, are discussed. The ideas are demonstrated in high-fidelity simulations in CarSim, and also on a real vehicle in Mcity, the autonomous vehicle testing facility at the University of Michigan.}
+}
+
+@article{sno_arxiv18,
+  Author = {Yunus Emre Sahin and Petter Nilsson and Necmiye Ozay},
+  Title = {Multirobot Coordination with Counting Temporal Logics},
+  Journal = {In review},
+  Year = {2018},
+  Month = {October},
+  Eprint = {1810.13087},
+  Eprintclass = {cs.RO},
+  Eprinttype = {arxiv},
+  Abstract = {In many multirobot applications, planning trajectories in a way to guarantee that the collective behavior of the robots satisfies a certain high-level specification is crucial. Motivated by this problem, we introduce counting temporal logics---formal languages that enable concise expression of multirobot task specifications over possibly infinite horizons. We first introduce a general logic called counting linear temporal logic plus (cLTL+), and propose an optimization-based method that generates individual trajectories such that satisfaction of a given cLTL+ formula is guaranteed when these trajectories are synchronously executed. We then introduce a fragment of cLTL+, called counting linear temporal logic (cLTL), and show that a solution to planning problem with cLTL constraints can be obtained more efficiently if all robots have identical dynamics. In the second part of the paper, we relax the synchrony assumption and discuss how to generate trajectories that can be asynchronously executed, while preserving the satisfaction of the desired cLTL+ specification. In particular, we show that when the asynchrony between robots is bounded, the method presented in this paper can be modified to generate robust trajectories. We demonstrate these ideas with an experiment and provide numerical results that showcase the scalability of the method.}
+}
+
+@Comment @inproceedings{ngsa_cpss19,
+@Comment   Author = {Petter Nilsson and Thomas Gurriet and Andrew Singletary and Aaron D. Ames},
+@Comment   Title = {Demonstrating Cooperative Multi-Robot Task Planning in Partially Known Environments},
+@Comment   Booktitle = {Preparation},
+@Comment   Year = {2019},
+@Comment   Month = {April},
+@Comment   Abstract = {Heterogeneous robotic teams have the potential to improve efficiency by leveraging the unique capabilities of individual robots. In this paper we demonstrate---on hardware---cooperation between a ground vehicle and a quadrotor, where the goal of the quadrotor is to assist the ground vehicle with task-specific information gathering. The task is represented as a specification automaton with formal semantics that can be incorporated into the overall system. Our proposed decision-making algorithm is underpinned by solving stochastic reachability problems on networks of MDPs that include abstract robot models, environment belief models, and the task automaton. We demonstrate how the resulting policies react to incremental environment knowledge and make informed decisions about when additional information gathering is warranted.}
+@Comment }
+
+@inproceedings{haesaert_cdc19,
+  Author = {Sofie Haesaert and Rohan A Thakker and Petter Nilsson and Ali-akbar Agha-mohammadi and Richard M. Murray},
+  Title = {Temporal logic planning in uncertain environments with probabilistic roadmaps and belief spaces},
+  Booktitle = {IEEE Conference on Decision and Control (to appear)},
+  Year = 2019,
+  Month = {December},
+  Abstract = {Navigation problems expressed via temporal logics show promise for autonomous robot applications due to their versatility, but often these methods induce a steep increase in computational burden.  This increase is even more present in uncertain environments. For these navigation problems, a scalable algorithm is needed that yields a guarantees on the planning problems. 
+
+In this paper, we show that point-based value iteration can be combined with probabilistic roadmaps to solve these complex navigation problems in uncertain environments.}
+}
+
+@inproceedings{singletary_iros19,
+  Author = {Andrew Singletary and Petter Nilsson and Thomas Gurriet and Aaron D. Ames},
+  Title = {Online Active Safety for Robotic Manipulators},
+  Booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (to appear)},
+  Year = 2019,
+  Month = {October},
+  Abstract = {Future manufacturing environments will see an increased need for cooperation between humans and machines. In this paper we propose a method that allows industrial manipulators to safely operate around humans. This approach guarantees that the manipulator will never collide with human operators while performing its normal tasks. This is done in an near-optimal way by considering how forward reachable sets of human operators grow with time, and by continuously updating these reachable sets based on current position estimates of the operators near the robot. An implicit active set invariance filter is then used to constrain the system---in a minimally invasive way---to stay in the complement of that forward reachable set. We demonstrate this approach in simulation on an industrial robotic arm: the ABB IRB 6640.}
+}
+
+@misc{singletary_2020,
+  Author = {Andrew Singletary and Thomas Gurriet and Petter Nilsson and Aaron D. Ames},
+  Title = {Enabling Rapid Aerial Exploration of Unknown Environments},
+  Note = {Under Review},
+  Month = {December},
+  Year = {2019},
+  Abstract = {This paper details a novel approach to collision avoidance for aerial vehicles that enables high-speed flight in uncertain environments. This framework is applied at the controller level and provides safety regardless of the planner that is used. The method is shown to be robust to state uncertainty and disturbances, and is computed entirely online utilizing the full nonlinear system dynamics. The effectiveness of this method is shown in a high-fidelity simulation of a quadrotor with onboard sensors rapidly and safely exploring a cave environment utilizing a simple planner.}
+}
+
+@misc{doeser_2020,
+  Author = {Ludvig Doeser and Petter Nilsson and Aaron D. Ames and Richard M. Murray},
+  Title = {Invariant Sets for Integrators and Quadrotor Obstacle Avoidance},
+  Note = {Under Review},
+  Month = {December},
+  Year = {2019},
+  Abstract = {Ensuring safety through set invariance has proven a useful method in a variety of applications in robotics and control. However, finding analytical expressions for maximal invariant sets, so as to maximize the operational freedom of the system without compromising safety, is notoriously difficult for high-dimensional systems with input constraints. Here we present a generic method for characterizing invariant sets of $n$-order integrator systems, based on analyzing roots of univariate polynomials. Additionally, we obtain analytical expressions for the orders $n \leq 4$. Using differential flatness we subsequently leverage the results for the $n = 4$ case to the problem of obstacle avoidance for quadrotor UAVs. The resulting controller has a light computational footprint that showcases the power of finding analytical expressions for control-invariant sets.}
+}
+
+@misc{na_2020,
+  Author = {Petter Nilsson and Aaron D. Ames},
+  Title = {Lyapunov-Like Conditions for Tight Exit Probability Bounds through Comparison Theorems for SDEs},
+  Note = {Under Review},
+  Month = {December},
+  Year = {2019},
+  Abstract = {Computing upper bounds on exit probabilities---the probability that a system reaches certain ``bad'' sets---is important in autonomous decision-making. Existing analytical bounds for systems described by stochastic differential equations are quite loose, especially for low-probability events, which limits their applicability in practical situations. In this paper we analyze why existing bounds are loose, and conclude that it is a fundamental issue with the underlying techniques based on martingale inequalities. As an alternative, we give comparison results for stochastic differential equations that allow exit probabilities of an $n$-dimensional system to be upper bounded by an exit probability of a one-dimensional Ornstein-Uhlenbeck process via a Lyapunov-like function. Even though no closed-form expression is known for the latter exit probability, it depends on three or four parameters and can be a priori tabulated for applications. We extend these ideas to the controlled setting and state a stochastic analogue of control barrier functions. We illustrate the results on a numerical examples and show that they are much tighter than those based on martingale inequalities.}
+}
+
+@misc{klaesson_2020a,
+  Author = {Filip Klaesson and Petter Nilsson and Aaron D. Ames and Richard M. Murray},
+  Title = {Intermittent Connectivity In Communication-Constrained Multi-Agent Systems},
+  Note = {In Preparation},
+  Month = {December},
+  Year = {2019}
+}
+
