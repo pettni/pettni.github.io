@@ -299,6 +299,7 @@
   Title = {Realizable Set Invariance Conditions for Cyber-Physical Systems},
   Month = {July},
   Year = {2019},
+  Doi = {10.23919/ACC.2019.8814301},
   Booktitle = {Proceedings of the American Control Conference},
   Abstract = {There is currently a gap between control-theoretical results and the reality of robotic implementations---this makes it difficult to transfer analytical guarantees to practice. This problem is especially troubling when it comes to safety guarantees for safety-critical systems. In this paper we seek to help bridge this gap. We first make a clear theoretical distinction between a system and a model, and outline how the two need to be related for guarantees to transfer from the latter to the former. We then introduce various imperfections into the model, including uncertainty in actuation and sensing, as well as time discretization effects from digital control implementations. These assumptions lead to new criteria for controlled invariance to be realizable. We investigate these criteria and propose a digital control implementation for enforcing safety in the presence of uncertainty. Our ideas are illustrated with a numerical example where a ground robot satisfies safety constraints in the presence of perception noise.}
 }
@@ -308,6 +309,7 @@
   Title = {Managing Voltage Excursions on the Distribution Network by Limiting the Aggregate Variability of Thermostatic Loads},
   Month = {July},
   Year = {2019},
+  Doi = {10.23919/ACC.2019.8814301},
   Booktitle = {Proceedings of the American Control Conference},
   Abstract = {This paper proposes a strategy to control a group of thermostatically controlled loads (TCLs) such that the variability in their aggregate load is reduced. This strategy could be deployed in areas of a distribution network that experience voltage excursions due to net load fluctuations, such as areas with high penetrations of photovoltaic (PV) generation and/or electric vehicles (EVs). We limit variation in the power consumption of a group of TCLs using a control strategy previously developed for large aggregations of switched systems. Using this strategy, we constrain the number of TCLs that are on (i.e., actively consuming power) between upper and lower bounds. In simulations, the control strategy successfully decreases the range over which TCL power consumption varies. Reductions in range, as a percentage of the group's aggregate power, are greater for smaller group sizes: we find that 1000 TCLs have a median reduction of 8\%, whereas 5 TCLs have a median reduction of 75\%. Reducing the variability of a distribution network's power injections helps to reduce voltage variability. In a simulation of a distribution line supplying 25 households, half with PV systems, the control strategy reduces the total range of voltage by 0.02 p.u. and prevents a violation of the 0.95 p.u. limit. Lastly, we propose a new control strategy for a more realistic TCL model that includes compressor lockout. The new strategy performs comparably to the original strategy and is demonstrated through simulation.}
 }
@@ -327,12 +329,15 @@
 @article{sno_arxiv18,
   Author = {Yunus Emre Sahin and Petter Nilsson and Necmiye Ozay},
   Title = {Multirobot Coordination with Counting Temporal Logics},
-  Journal = {In review},
-  Year = {2018},
-  Month = {October},
+  Journal = {IEEE Transactions on Robotics},
+  Volume = {36},
+  Number = {4},
+  Year = {2020},
+  Month = {August},
   Eprint = {1810.13087},
   Eprintclass = {cs.RO},
   Eprinttype = {arxiv},
+  Doi = {10.1109/TRO.2019.2957669},
   Abstract = {In many multirobot applications, planning trajectories in a way to guarantee that the collective behavior of the robots satisfies a certain high-level specification is crucial. Motivated by this problem, we introduce counting temporal logics---formal languages that enable concise expression of multirobot task specifications over possibly infinite horizons. We first introduce a general logic called counting linear temporal logic plus (cLTL+), and propose an optimization-based method that generates individual trajectories such that satisfaction of a given cLTL+ formula is guaranteed when these trajectories are synchronously executed. We then introduce a fragment of cLTL+, called counting linear temporal logic (cLTL), and show that a solution to planning problem with cLTL constraints can be obtained more efficiently if all robots have identical dynamics. In the second part of the paper, we relax the synchrony assumption and discuss how to generate trajectories that can be asynchronously executed, while preserving the satisfaction of the desired cLTL+ specification. In particular, we show that when the asynchrony between robots is bounded, the method presented in this paper can be modified to generate robust trajectories. We demonstrate these ideas with an experiment and provide numerical results that showcase the scalability of the method.}
 }
 
@@ -348,55 +353,64 @@
 @inproceedings{haesaert_cdc19,
   Author = {Sofie Haesaert and Rohan A Thakker and Petter Nilsson and Ali-akbar Agha-mohammadi and Richard M. Murray},
   Title = {Temporal logic planning in uncertain environments with probabilistic roadmaps and belief spaces},
-  Booktitle = {IEEE Conference on Decision and Control (to appear)},
-  Year = 2019,
+  Booktitle = {Proceedings of the IEEE Conference on Decision and Control},
+  Year = {2019},
   Month = {December},
+  Doi = {10.1109/CDC40024.2019.9029240}
   Abstract = {Navigation problems expressed via temporal logics show promise for autonomous robot applications due to their versatility, but often these methods induce a steep increase in computational burden.  This increase is even more present in uncertain environments. For these navigation problems, a scalable algorithm is needed that yields a guarantees on the planning problems. 
 
-In this paper, we show that point-based value iteration can be combined with probabilistic roadmaps to solve these complex navigation problems in uncertain environments.}
+In this paper, we show that point-based value iteration can be combined with probabilistic roadmaps to solve these complex navigation problems in uncertain environments.},
 }
 
 @inproceedings{singletary_iros19,
   Author = {Andrew Singletary and Petter Nilsson and Thomas Gurriet and Aaron D. Ames},
   Title = {Online Active Safety for Robotic Manipulators},
-  Booktitle = {IEEE/RSJ International Conference on Intelligent Robots and Systems (to appear)},
-  Year = 2019,
+  Booktitle = {Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems},
+  Year = {2019},
   Month = {October},
+  Doi = {10.1109/IROS40897.2019.8968231},
   Abstract = {Future manufacturing environments will see an increased need for cooperation between humans and machines. In this paper we propose a method that allows industrial manipulators to safely operate around humans. This approach guarantees that the manipulator will never collide with human operators while performing its normal tasks. This is done in an near-optimal way by considering how forward reachable sets of human operators grow with time, and by continuously updating these reachable sets based on current position estimates of the operators near the robot. An implicit active set invariance filter is then used to constrain the system---in a minimally invasive way---to stay in the complement of that forward reachable set. We demonstrate this approach in simulation on an industrial robotic arm: the ABB IRB 6640.}
 }
 
-@misc{singletary_2020,
+@inproceedings{singletary_icra20,
   Author = {Andrew Singletary and Thomas Gurriet and Petter Nilsson and Aaron D. Ames},
-  Title = {Enabling Rapid Aerial Exploration of Unknown Environments},
-  Note = {Under Review},
-  Month = {December},
-  Year = {2019},
+  Booktitle = {Proceedings of the IEEE International Conference on Robotics and Automation},
+  Title = {Safety-Critical Rapid Aerial Exploration of Unknown Environments},
+  Month = {June},
+  Year = {2020},
   Abstract = {This paper details a novel approach to collision avoidance for aerial vehicles that enables high-speed flight in uncertain environments. This framework is applied at the controller level and provides safety regardless of the planner that is used. The method is shown to be robust to state uncertainty and disturbances, and is computed entirely online utilizing the full nonlinear system dynamics. The effectiveness of this method is shown in a high-fidelity simulation of a quadrotor with onboard sensors rapidly and safely exploring a cave environment utilizing a simple planner.}
 }
 
-@misc{doeser_2020,
+@inproceedings{doeser_acc20,
   Author = {Ludvig Doeser and Petter Nilsson and Aaron D. Ames and Richard M. Murray},
+  Booktitle = {American Control Conference},
   Title = {Invariant Sets for Integrators and Quadrotor Obstacle Avoidance},
-  Note = {Under Review},
-  Month = {December},
-  Year = {2019},
+  Month = {July},
+  Year = {2020},
+  Doi = {10.23919/ACC45564.2020.9147872},
   Abstract = {Ensuring safety through set invariance has proven a useful method in a variety of applications in robotics and control. However, finding analytical expressions for maximal invariant sets, so as to maximize the operational freedom of the system without compromising safety, is notoriously difficult for high-dimensional systems with input constraints. Here we present a generic method for characterizing invariant sets of $n$-order integrator systems, based on analyzing roots of univariate polynomials. Additionally, we obtain analytical expressions for the orders $n \leq 4$. Using differential flatness we subsequently leverage the results for the $n = 4$ case to the problem of obstacle avoidance for quadrotor UAVs. The resulting controller has a light computational footprint that showcases the power of finding analytical expressions for control-invariant sets.}
 }
 
-@misc{na_2020,
+@inproceedings{na_acc20,
   Author = {Petter Nilsson and Aaron D. Ames},
+  Booktitle = {Proceedings of the American Control Conference},
   Title = {Lyapunov-Like Conditions for Tight Exit Probability Bounds through Comparison Theorems for SDEs},
-  Note = {Under Review},
-  Month = {December},
-  Year = {2019},
+  Month = {July},
+  Year = {2020},
+  Doi = {10.23919/ACC45564.2020.9147414},
   Abstract = {Computing upper bounds on exit probabilities---the probability that a system reaches certain ``bad'' sets---is important in autonomous decision-making. Existing analytical bounds for systems described by stochastic differential equations are quite loose, especially for low-probability events, which limits their applicability in practical situations. In this paper we analyze why existing bounds are loose, and conclude that it is a fundamental issue with the underlying techniques based on martingale inequalities. As an alternative, we give comparison results for stochastic differential equations that allow exit probabilities of an $n$-dimensional system to be upper bounded by an exit probability of a one-dimensional Ornstein-Uhlenbeck process via a Lyapunov-like function. Even though no closed-form expression is known for the latter exit probability, it depends on three or four parameters and can be a priori tabulated for applications. We extend these ideas to the controlled setting and state a stochastic analogue of control barrier functions. We illustrate the results on a numerical examples and show that they are much tighter than those based on martingale inequalities.}
 }
 
-@misc{klaesson_2020a,
+@inproceedings{klaesson_iccps20,
   Author = {Filip Klaesson and Petter Nilsson and Aaron D. Ames and Richard M. Murray},
   Title = {Intermittent Connectivity In Communication-Constrained Multi-Agent Systems},
-  Note = {In Preparation},
-  Month = {December},
-  Year = {2019}
+  Booktitle = {Proceedings of the ACM/IEEE International Conference on Cyber-Physical Systems},
+  Month = {April},
+  Year = {2020},
+  Eprint = {1911.08626},
+  Eprintclass = {cs.RO},
+  Eprinttype = {arxiv},
+  Doi = {10.1109/ICCPS48487.2020.00031},
+  Abstract = {Motivated by exploration of communication-constrained underground environments using robot teams, we study the problem of planning for intermittent connectivity in multi-agent systems. We propose a novel concept of information-consistency to handle situations where the plan is not initially known by all agents, and suggest an integer linear program for synthesizing information-consistent plans that also achieve auxiliary goals. Furthermore, inspired by network flow problems we propose a novel way to pose connectivity constraints that scales much better than previous methods. In the second part of the paper we apply these results in an exploration setting, and propose a clustering method that separates a large exploration problem into smaller problems that can be solved independently. We demonstrate how the resulting exploration algorithm is able to coordinate a team of ten agents to explore a large environment.}
 }
 
