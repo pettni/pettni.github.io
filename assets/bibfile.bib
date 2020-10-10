@@ -19,8 +19,8 @@
   Url = {http://inn.hhs.se/record=b1157526},
   Slides = {papers/mn_sse2013_slides.pdf},
   Abstract = {Establishment and upholding of norms in a society is studied by constructing an agent-based model for the public goods game with punishments and limited information. The model includes players employing one of three strategies: defection, enforcement or cooperation. Game dynamics are introduced based on evolutionary game theory with poor performing players being more likely to revise their strategy.
-    
-  The model is studied numerically with the use of computer simulations. Questions addressed include the necessary conditions to attain a cooperative state and the impact of including cost-sharing institutional structures. An analytical study is also included, leading to the derivation of an approximate differential equation describing the dynamics of the game. 
+
+  The model is studied numerically with the use of computer simulations. Questions addressed include the necessary conditions to attain a cooperative state and the impact of including cost-sharing institutional structures. An analytical study is also included, leading to the derivation of an approximate differential equation describing the dynamics of the game.
 
   It was found that for sufficiently severe punishments, enforcers are able to establish and sustain states of cooperation. This ability was observed to depend on the mobility of strategies and could be improved by including institutional structures.}
 }
@@ -79,9 +79,9 @@
 }
 
 @inproceedings{netal_cdc2014,
-  Author = {Petter Nilsson and Omar Hussien and Yuxiao Chen and Ayca Balkan and Matthias Rungger and Aaron D. Ames and Jessy Grizzle and Necmiye Ozay and Huei Peng and Paulo Tabuada}, 
-  Booktitle = {Proceedings of the IEEE Conference on Decision and Control}, 
-  Title = {Preliminary Results on Correct-by-Construction Control Software Synthesis for Adaptive Cruise Control}, 
+  Author = {Petter Nilsson and Omar Hussien and Yuxiao Chen and Ayca Balkan and Matthias Rungger and Aaron D. Ames and Jessy Grizzle and Necmiye Ozay and Huei Peng and Paulo Tabuada},
+  Booktitle = {Proceedings of the IEEE Conference on Decision and Control},
+  Title = {Preliminary Results on Correct-by-Construction Control Software Synthesis for Adaptive Cruise Control},
   Year = {2014},
   Month = {Dec},
   Pages = {816-823},
@@ -188,7 +188,7 @@
   Doi = {10.1109/CDC.2017.8264191},
   Slides = {papers/no_cdc17_slides.pdf},
   Pages = {3618-3625},
-  Abstract = {Motivated by the problem of capacity allocation in aggregate systems of thermostatically controlled loads, we seek to optimize the time of invariance---the maximal time that a scheduler can maintain local safety constraints without exceeding an aggregate capacity constraint. Having previously characterized conditions when the time of invariance is infinite, this paper focuses on situations when no scheduler can satisfy all constraints indefinitely. 
+  Abstract = {Motivated by the problem of capacity allocation in aggregate systems of thermostatically controlled loads, we seek to optimize the time of invariance---the maximal time that a scheduler can maintain local safety constraints without exceeding an aggregate capacity constraint. Having previously characterized conditions when the time of invariance is infinite, this paper focuses on situations when no scheduler can satisfy all constraints indefinitely.
 
   We derive a lower bound for the optimal time of invariance, and leverage ideas from optimal control to propose control strategies with associated lower bounds on the resulting times of invariance. We also analyze the optimality gap. The results are illustrated on a 10,000-dimensional example.}
 }
@@ -212,8 +212,11 @@
   Eprintclass = {cs.SY},
   Eprinttype = {arxiv},
   Doi = {10.1109/TAC.2019.2910949},
-  Year = {2019},
-  Month = {February},
+  Year = {2020},
+  Month = {Feb},
+  Pages = {461 -- 476},
+  Volume = {65},
+  Number = {2},
   Abstract = {General purpose correct-by-construction synthesis methods are limited to systems with low dimensionality or simple specifications. In this work we consider highly symmetrical \emph{counting problems} and exploit the symmetry to synthesize provably correct controllers for systems with tens of thousands of states. The key ingredients of the solution are an aggregate abstraction procedure for mildly heterogeneous systems and subsequent formulation of counting constraints as linear inequalities.}
 }
 
@@ -224,9 +227,9 @@
   School = {University of Michigan},
   Author = {Petter Nilsson},
   Url = {http://hdl.handle.net/2027.42/140897},
-  Abstract = {There is a need for controller design methodologies that enable early detection and elimination of unsafe designs. This thesis is about correct-by-construction synthesis methods---a collection of techniques that provide mathematical guarantees on correct behavior with respect to a formal specification. While these methods have attractive theoretical properties, there are fundamental scalability limitations that inhibit wide adoption; this work is concerned with ways of overcoming the scalability issue. In particular, three techniques for improving scalability are addressed.  Firstly, a specification-guided abstraction-refinement technique with two novel inventions is presented. As opposed to traditional uniform abstractions, this technique creates non-uniform abstractions that are iteratively refined in ``promising'' areas of the state space to create a parsimonious abstraction. The abstraction is also augmented with additional information in the form of \emph{progress groups} that can encode transience properties of the underlying concrete system. Examples demonstrate that both these novelties can reduce the computational burden significantly.  
+  Abstract = {There is a need for controller design methodologies that enable early detection and elimination of unsafe designs. This thesis is about correct-by-construction synthesis methods---a collection of techniques that provide mathematical guarantees on correct behavior with respect to a formal specification. While these methods have attractive theoretical properties, there are fundamental scalability limitations that inhibit wide adoption; this work is concerned with ways of overcoming the scalability issue. In particular, three techniques for improving scalability are addressed.  Firstly, a specification-guided abstraction-refinement technique with two novel inventions is presented. As opposed to traditional uniform abstractions, this technique creates non-uniform abstractions that are iteratively refined in ``promising'' areas of the state space to create a parsimonious abstraction. The abstraction is also augmented with additional information in the form of \emph{progress groups} that can encode transience properties of the underlying concrete system. Examples demonstrate that both these novelties can reduce the computational burden significantly.
 
-  Secondly, ways to decompose large problems into smaller ones while preserving correctness guarantees are considered. Since synthesis techniques typically scale exponentially with system dimension, decomposition can render otherwise intractable problems tractable. Two techniques for computation of separable invariant sets are presented; one for joint computation via LMIs, and one for iterative localized computation for systems with nonlinear interconnections.  
+  Secondly, ways to decompose large problems into smaller ones while preserving correctness guarantees are considered. Since synthesis techniques typically scale exponentially with system dimension, decomposition can render otherwise intractable problems tractable. Two techniques for computation of separable invariant sets are presented; one for joint computation via LMIs, and one for iterative localized computation for systems with nonlinear interconnections.
 
   The final part of the thesis presents a way to leverage problem structure in order to provide mathematical correctness guarantees on aggregate behavior for very large collections of systems. In particular, \emph{counting problems} are introduced, which due to their symmetry admit a novel form of abstraction whose size is a fraction of that of a traditional naive abstraction. The counting problem on the abstraction is solved via ILP optimization.}
 }
@@ -326,7 +329,7 @@
   Abstract = {As the automobile evolves toward full autonomy, many driver convenience and safety automation systems are being introduced into production vehicles. These systems often include controllers designed for individual tasks. Designing individual controllers for interacting subsystems, and composing them in a way that preserves the guarantees that each controller provides on each subsystem, is a challenging task. This chapter presents recent results addressing this problem through the use of formal methods and correct-by-construction controller synthesis. Mechanisms for handling implementation- and model imperfections, and contract-based composition of functionality, are discussed. The ideas are demonstrated in high-fidelity simulations in CarSim, and also on a real vehicle in Mcity, the autonomous vehicle testing facility at the University of Michigan.}
 }
 
-@article{sno_arxiv18,
+@article{sno_tro20,
   Author = {Yunus Emre Sahin and Petter Nilsson and Necmiye Ozay},
   Title = {Multirobot Coordination with Counting Temporal Logics},
   Journal = {IEEE Transactions on Robotics},
@@ -357,7 +360,7 @@
   Year = {2019},
   Month = {December},
   Doi = {10.1109/CDC40024.2019.9029240}
-  Abstract = {Navigation problems expressed via temporal logics show promise for autonomous robot applications due to their versatility, but often these methods induce a steep increase in computational burden.  This increase is even more present in uncertain environments. For these navigation problems, a scalable algorithm is needed that yields a guarantees on the planning problems. 
+  Abstract = {Navigation problems expressed via temporal logics show promise for autonomous robot applications due to their versatility, but often these methods induce a steep increase in computational burden.  This increase is even more present in uncertain environments. For these navigation problems, a scalable algorithm is needed that yields a guarantees on the planning problems.
 
 In this paper, we show that point-based value iteration can be combined with probabilistic roadmaps to solve these complex navigation problems in uncertain environments.},
 }
@@ -414,3 +417,21 @@ In this paper, we show that point-based value iteration can be combined with pro
   Abstract = {Motivated by exploration of communication-constrained underground environments using robot teams, we study the problem of planning for intermittent connectivity in multi-agent systems. We propose a novel concept of information-consistency to handle situations where the plan is not initially known by all agents, and suggest an integer linear program for synthesizing information-consistent plans that also achieve auxiliary goals. Furthermore, inspired by network flow problems we propose a novel way to pose connectivity constraints that scales much better than previous methods. In the second part of the paper we apply these results in an exploration setting, and propose a clustering method that separates a large exploration problem into smaller problems that can be solved independently. We demonstrate how the resulting exploration algorithm is able to coordinate a team of ten agents to explore a large environment.}
 }
 
+@inproceedings{klaesson_icaps20,
+  Author = {Filip Klaesson and Petter Nilsson and Tiago Stegun Vaquero and Scott Tepsuporn and Aaron D. Ames and Richard M. Murray},
+  Title = {Planning and Optimization for Multi-Robot Planetary Cave Exploration under Intermittent Connectivity Constraints},
+  Booktitle = {Proceedings of the ICAPS Workshop on Planning and Robotics (PlanRob)},
+  Year = {2020},
+  Month = {October},
+  Abstract = {Exploring subsurface structures with autonomous robots is of growing interest in the context of planetary caves studies. Communication between robots in these environments is severely degraded which complicates coordination and information distribution. In this paper we focus on planning for mobility and communication in a cave exploration scenario where the situational awareness of a static base station is critical. We propose a notion of information-consistency where a plan itself is part of the information to be shared between robots, and propose a method for generating information-consistent plans. We discuss in detail how the resulting plan can be robustly implemented with minimal communication through local mission executives that run on individual robots. We describe preliminary results on the performance of the planning algorithm and integration of the local mission executives in a high-fidelity simulation environment.}
+}
+
+@article{gurriet_access20,
+  Author = {Thomas Gurriet and Mark Mote and Andrew Singletary and Petter Nilsson and Eric Feron and Aaron D. Ames},
+  Title = {A Scalable Safety Critical Control Framework for Nonlinear Systems},
+  Journal = {IEEE Access},
+  Year = {2020},
+  Month = {September},
+  Doi = {10.1109/ACCESS.2020.3025248},
+  Abstract = {There are two main approaches to safety-critical control. The first one relies on computation of control invariant sets and is presented in the first part of this work. The second approach draws from the topic of optimal control and relies on the ability to realize Model-Predictive-Controllers online to guarantee the safety of a system. In the second approach, safety is ensured at a planning stage by solving the control problem subject for some explicitly defined constraints on the state and control input. Both approaches have distinct advantages but also major drawbacks that hinder their practical effectiveness, namely scalability for the first one and computational complexity for the second. We therefore present an approach that draws from the advantages of both approaches to deliver efficient and scalable methods of ensuring safety for nonlinear dynamical systems. In particular, we show that identifying a backup control law that stabilizes the system is in fact sufficient to exploit some of the set-invariance conditions presented in the first part of this work. Indeed, one only needs to be able to numerically integrate the closed-loop dynamics of the system over a finite horizon under this backup law to compute all the information necessary for evaluating the regulation map and enforcing safety. The effect of relaxing the stabilization requirements of the backup law is also studied, and weaker but more practical safety guarantees are brought forward. We then explore the relationship between the optimality of the backup law and how conservative the resulting safety filter is. Finally, methods of selecting a safe input with varying levels of trade-off between conservatism and computational complexity are proposed and illustrated on multiple robotic systems, namely: a two-wheeled inverted pendulum (Segway), an industrial manipulator, a quadrotor, and a lower body exoskeleton.}
+}

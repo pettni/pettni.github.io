@@ -1,14 +1,16 @@
-7/20: Ludvig presented <a href="#/publications#doeser_acc20">our work on control-invariance</a>, and I presented <a href="#/publications/#na_acc20">our work on invariance in SDEs</a>, both at ACC which was held virtually
-6/20: Andrew presented <a href="#/publications#singletary_icra20">our work on obstacle avoidance</a> at ICRA which was held virtually
-4/20: Filip presented <a href="#/publications#klaesson_iccps20">our work on communication-constrained multi-robot coordination</a> at ICCPS which was held virtually
-11/19: Started work as a Robotics Software Engineer at Yamaha in Atlanta, GA
+10/20: <a href="#/publications#klaesson_icaps20">Paper with Filip and Tiago on multi-robot cave exploration</a> accepted to the PlanRob workshop at ICAPS, to be held virtually in late October.
+9/20: <a href="#/publications#gurriet_access20">Comprehensive article on safety-critical control via invariance</a> with my Yamaha colleague Thomas Gurriet appeared in IEEE Access.
+7/20: Ludvig presented <a href="#/publications#doeser_acc20">our work on control-invariance</a>, and I presented <a href="#/publications/#na_acc20">our work on invariance in SDEs</a>, both at ACC which was held virtually.
+6/20: Andrew presented <a href="#/publications#singletary_icra20">our work on obstacle avoidance</a> at ICRA which was held virtually.
+4/20: Filip presented <a href="#/publications#klaesson_iccps20">our work on communication-constrained multi-robot coordination</a> at ICCPS which was held virtually.
+11/19: Started work as a Robotics Software Engineer at Yamaha in Atlanta, GA.
 11/19: Website moved to Github pages.
 9/19: If you have a 3D planning problem on a uniform grid, check out my <a href="http://github.com/pettni/jpsl">3D implementation of jump-point search</a>.
 9/19: I updated the <a href="#/research">research page</a> with our latest projects.
 7/19: <a href="#/publications#haesaert_cdc19">Paper</a> with Sofie Haesaert and Rohan Thakker on sampling-based temporal logic planning via point-based value iteration accepted to CDC 2019.
 6/19: <a href="#/publications#singletary_iros19">Paper</a> with Andrew Singletary on obstacle avoidance for robotic manipulators accepted to IROS.
 1/19: Two papers accepted to ACC 2019 in Philadelphia: <a href="#/publications#cnom_acc19">one paper</a> with <a href="https://sites.google.com/umich.edu/sc-ross">Stephanie Ross</a> on invariance-driven power systems control, and <a href="#/publications#gnsa_acc19">one paper on robust control invariance</a>.
-1/19: Check out this <a href="#/barrier">game</a> that shows how barrier functions can achieve safety in dynamical systems  
+1/19: Check out this <a href="#/barrier">game</a> that shows how barrier functions can achieve safety in dynamical systems
 1/19: Upcoming travel: <br> * Jan 23-25: Visit to Prof. Murat Arcak's group at UC Berkeley. <br> * Feb 6: Seminar at Illinois Mechanical Science and Engineering. <br /> * Feb 14: Seminar at Minnesota Aerospace Engineering and Mechanics. <br /> * Feb 18: Seminar at Princeton Electrical Engineering. <br /> * Feb 21: Seminar at University of Wisconsin Mechanical Eng
 ineering. <br /> * Mar 21: Seminar at Cornell ECE. <br /> * Mar 22: Seminar at MIT AeroAstro.
 12/18: I attended CDC in Miami to present our <a href="#/publications#na_cdc18">work on barrier functions for planning</a>.
@@ -19,15 +21,15 @@ ineering. <br /> * Mar 21: Seminar at Cornell ECE. <br /> * Mar 22: Seminar at M
 7/18: Our paper on barrier-certified abstractions was accepted to CDC 2018, to be held in Miami Beach, FL.
 6/18: A <a href="https://youtu.be/K5814BUPQDU">video</a> of my talk at RSS is available. Also take a look at the <a href="papers/rss_2018_poster.pdf">poster</a>.
 4/18: Our paper on specification-guided exploration accepted to the 2018 Robotics: Science and System Conference in Pittsburgh.
-3/18: Two papers accepted to the IFAC Conference on Analys and Design of Hybrid Systems, to be held in Oxford, UK, in July 2018. 
-2/18: My Ph.D. dissertation is now <a href="https://deepblue.lib.umich.edu/handle/2027.42/140897">available</a> online! 
-1/18: On April 5th I will give a talk at the Robotics Institute at Carnegie Mellon University in Pittsburgh, PA. 
+3/18: Two papers accepted to the IFAC Conference on Analys and Design of Hybrid Systems, to be held in Oxford, UK, in July 2018.
+2/18: My Ph.D. dissertation is now <a href="https://deepblue.lib.umich.edu/handle/2027.42/140897">available</a> online!
+1/18: On April 5th I will give a talk at the Robotics Institute at Carnegie Mellon University in Pittsburgh, PA.
 12/17: I attended CDC in Melbourne where I presented our paper on maximizing the time of invariance.
 10/17: I will give a talk on our work on counting problems at the 33rd Southern California Control Workshop at UCSB.
-9/17: My thesis defense is scheduled for 9.00am on Friday September 15th in 1340 EECS. 
-8/17: I will serve as chair of the "Hybrid Systems III" session at CDC this year. Welcome! 
+9/17: My thesis defense is scheduled for 9.00am on Friday September 15th in 1340 EECS.
+8/17: I will serve as chair of the "Hybrid Systems III" session at CDC this year. Welcome!
 8/17: After finishing my Ph.D. in September I will join Caltech as a Post-Doctoral Scholar, working with Aaron Ames on a Caltech/JPL project.
-7/17: Two papers accepted to the 2017 IEEE Conference on Decision and Control, to be held in Melbourne, Australia. 
+7/17: Two papers accepted to the 2017 IEEE Conference on Decision and Control, to be held in Melbourne, Australia.
 4/17: I presented a <a href="papers/midwest2017_poster.pdf">poster</a> on control of large collections of switched systems at the Midwest Workshop on Control and Game Theory.
 4/17: I attended CPS Week in Pittsburgh where I presented our paper entitled "On a class of maximal invariance inducing control strategies for large collections of switched systems" at the HSCC conference.
 3/17: Our paper entitled "Augmented Finite Transition Systems as Abstractions for Control Synthesis" was accepted for publication in <i>Discrete Event Dynamic Systems</i>.
